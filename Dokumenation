@@ -1,0 +1,39 @@
+# Projektrapport - BankTest
+
+### Ert namn
+Vikram Singh
+
+### Beskrivning av projektet
+Projektet går ut på att skapa ett bankkonto och sedan testa koden medhjälp av TDD med JUnit för att säkerställa 
+att kontot inte får felaktiga inmatningar och inte övertrasseras.
+
+### Vem har gjort vad
+
+### Vad ni har gjort
+
+## Arbetet och dess genomförande
+Jag börja med att skapa klassen Account med variablerna balance och accountNr samt konstruktor.
+Metoder i klassen är deposit, withdraw, getBalance och getAccountNr.
+Jag skapade sedan en klass vid namn AccountTest där jag skapade själva kontot "Account account = new Account(100.0, "13579");"
+Jag  gjorde massa olika test:
+Test för ta ut giltigt belopp.
+Test för ta ut ogiltigt belopp.
+Test för lägga in giltigt belopp.
+Test för lägga in ogiltigt belopp.
+Test för få kontots saldo.
+Test för kunna hämta kontots kontonummer.
+Jag använde mig även av @ParameterizedTest och @ValueSource för att göra flera tester i ett.
+
+## Slutsatser
+
+### Vad gick bra
+Jag kände att denna uppgiften var relativt enkel och grundläggande men samtidigt lärorik. Testerna gick bra och instruktioner
+var tydliga.
+
+### Vad gick dåligt
+Jag kände inte att något gick dåligt utan upplevde att detta var en bra första uppgiften på kursen med instrukioner som var
+tydliga.
+
+### Vad har du lärt dig
+Jag lärde mig att testa koden medhjälp av TDD med JUnit. Nu när jag skriver denna rapport lite längre fram i kursen så upplever jag
+att denna utmaning var lärorik och att man fick en tydlig insyn på hur man skall enhets testa koder.
